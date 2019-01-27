@@ -1,0 +1,15 @@
+D:\Work\The.Machine\The.Machine\The.Machine\bin\Debug\netcoreapp2.1\nlog.config
+D:\Work\The.Machine\The.Machine\The.Machine\bin\Debug\netcoreapp2.1\The.Machine.deps.json
+D:\Work\The.Machine\The.Machine\The.Machine\bin\Debug\netcoreapp2.1\The.Machine.runtimeconfig.json
+D:\Work\The.Machine\The.Machine\The.Machine\bin\Debug\netcoreapp2.1\The.Machine.runtimeconfig.dev.json
+D:\Work\The.Machine\The.Machine\The.Machine\bin\Debug\netcoreapp2.1\The.Machine.dll
+D:\Work\The.Machine\The.Machine\The.Machine\bin\Debug\netcoreapp2.1\The.Machine.pdb
+D:\Work\The.Machine\The.Machine\The.Machine\obj\Debug\netcoreapp2.1\The.Machine.csproj.CoreCompileInputs.cache
+D:\Work\The.Machine\The.Machine\The.Machine\obj\Debug\netcoreapp2.1\The.Machine.RazorAssemblyInfo.cache
+D:\Work\The.Machine\The.Machine\The.Machine\obj\Debug\netcoreapp2.1\The.Machine.RazorAssemblyInfo.cs
+D:\Work\The.Machine\The.Machine\The.Machine\obj\Debug\netcoreapp2.1\The.Machine.AssemblyInfoInputs.cache
+D:\Work\The.Machine\The.Machine\The.Machine\obj\Debug\netcoreapp2.1\The.Machine.AssemblyInfo.cs
+D:\Work\The.Machine\The.Machine\The.Machine\obj\Debug\netcoreapp2.1\The.Machine.RazorTargetAssemblyInfo.cache
+D:\Work\The.Machine\The.Machine\The.Machine\obj\Debug\netcoreapp2.1\The.Machine.dll
+D:\Work\The.Machine\The.Machine\The.Machine\obj\Debug\netcoreapp2.1\The.Machine.pdb
+D:\Work\The.Machine\The.Machine\The.Machine\obj\Debug\netcoreapp2.1\The.Machine.csprojAssemblyReference.cache

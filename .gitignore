@@ -1,0 +1,9 @@
+/TPad.Office/bin/
+/TPad.Office/obj/
+/The.Machine.UnitTest/bin/
+/The.Machine.UnitTest/obj/
+/.vs/The.Machine/v15/Server/sqlite3/db.lock
+/.vs/The.Machine/v15/Server/sqlite3/storage.ide
+/.vs/The.Machine/v15/Server/sqlite3/storage.ide-shm
+/.vs/The.Machine/v15/Server/sqlite3/storage.ide-wal
+/.vs/The.Machine/v15/.suo

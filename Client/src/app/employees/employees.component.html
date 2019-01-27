@@ -1,0 +1,47 @@
+<div class="alert alert-info alert-dismissible fade show" role="info">
+    <strong>Bonjour!</strong> Introduisez votre N° de badge pour charger vos préférences.
+    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+      <span aria-hidden="true">&times;</span>
+    </button>
+  </div>
+<form class="form-inline">
+      <div class="form-group">
+    <label class="m-2" for="inlineFormCustomSelectPref">N° de Badge : </label>
+    <input  class="custom-select" type="text" id="badgeInput_1" [(ngModel)]="badgeId" name="badgeId"  type="number" min="0" class="form-control" value="1">
+    <button type="submit" (click)="loadSetting()" class="btn btn-primary  m-2">Charger</button>
+    <button type="submit" (click)="clear()" class="btn btn-secondary m-1">Reinitialiser</button>
+  </div>
+  </form>
+  
+  <hr/>
+    <form >
+      <fieldset>
+        <div class="form-group">
+          <label for="sugar">Combien de sucre ?</label>
+          <input type="text" id="sugarInput" [(ngModel)]="employee.Preference.SugarQuantity" 
+          type="number" min="0" class="form-control" value="1"  name="SugarQuantity">
+        </div>
+        <div class="form-group">
+          <label for="drink">Boisson</label>
+          <select id="drinkSelect" class="form-control"  [(ngModel)]="employee.Preference.Drink.Id" name="DrinkId">
+            <option *ngFor="let drink of drinks" value="{{drink.Id}}"
+            > {{drink.Name}} </option>
+          </select>
+        </div>
+        <div class="checkbox">
+          <label>
+            <input type="checkbox" [(ngModel)]="employee.Preference.UsePersonalMug" name="UsePersonalMug"> J'ai mon propre Mug
+          </label>
+        </div>
+        <div class="checkbox" >
+          <label>
+            <input type="checkbox" [(ngModel)]="rememberMe" name="RememberMe"> Se souvenir de moi
+          </label>
+        </div>
+        <div class="form-group" *ngIf="rememberMe">
+          <label for="badge">N° de badge : </label>
+          <input  [disabled]="settingLoaded" type="text" id="badgeInput_2" [(ngModel)]="employee.Id" name="EmployeeId"  type="number" min="0" class="form-control" value="1">
+        </div>
+        <button (click)="makeDrink()" class="btn btn-success">Commandez</button>
+      </fieldset>
+    </form>
